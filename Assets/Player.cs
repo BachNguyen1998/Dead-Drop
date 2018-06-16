@@ -126,11 +126,11 @@ public class Player : MonoBehaviour
         anim.SetFloat("Running Speed", Mathf.Abs(rb.velocity.x));
         anim.SetFloat("Vertical Speed", rb.velocity.y);
     }
-    void OnGUI()
+    /*void OnGUI()
     {
         GUI.Label(new Rect(50, 0, 100, 100), anim.GetBool("Collided").ToString());
         GUI.Label(new Rect(50, 20, 100, 100), anim.GetBool("Touched").ToString());
-    }
+    }*/
     void Flip() {
         facingRight = !facingRight;
         Vector3 theScale = transform.localScale;
