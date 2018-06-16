@@ -98,7 +98,7 @@ MonoBehaviour:
   m_MinSize: {x: 336, y: 271}
   m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
-  controlID: 86
+  controlID: 64
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 887, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 11
+  controlID: 49
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -439,7 +439,7 @@ MonoBehaviour:
       splitSize: 6
       xOffset: 0
     m_HorizontalSplitter:
-      ID: 92
+      ID: 70
       splitterInitialOffset: 0
       currentActiveSplitter: -1
       realSizes: c0000000c0010000
@@ -567,9 +567,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1072
+    x: 1039
     y: 92
-    width: 294
+    width: 327
     height: 654
   m_PersistentViewDataDictionary: {fileID: 0}
   m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
@@ -804,7 +804,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 9cfbffff9efbffff00000000
+    m_ExpandedIDs: e2b9ffff6cbaffff2abcffff34bcfffff4d9ffffccdaffff8adcffff8edcffff46f4ffffcef4ffff8cf6ffff90f6ffff9cfbffff9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -861,9 +861,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.22239111, y: -1.1720114, z: -9.859678}
+    m_Target: {x: 1.1902349, y: -0.77077097, z: 0.01171875}
     speed: 2
-    m_Value: {x: 0.22239111, y: -1.1720114, z: -9.859678}
+    m_Value: {x: 1.1902349, y: -0.77077097, z: 0.01171875}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -891,9 +891,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.7690263
+    m_Target: 13.537813
     speed: 2
-    m_Value: 5.7690263
+    m_Value: 13.537813
   m_Ortho:
     m_Target: 1
     speed: 2
