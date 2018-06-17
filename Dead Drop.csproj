@@ -248,10 +248,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BoxGenerator.cs" />
+    <Compile Include="Assets\ButtonPressed.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
     <Compile Include="Assets\Crushed.cs" />
     <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\PauseMenu.cs" />
+    <Compile Include="Assets\PlatformCollider.cs" />
     <Compile Include="Assets\Player.cs" />
     <Compile Include="Assets\RestartGame.cs" />
     <Compile Include="Assets\SettingsMenu.cs" />

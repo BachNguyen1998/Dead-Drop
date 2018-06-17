@@ -37,7 +37,7 @@ android {
 	}
 
 	aaptOptions {
-		noCompress '.unity3d', '.ress', '.resource', '.obb','bin/data/26cbfc0f070bb104c95ed24f62a9a920.resource','bin/data/64ba031256edb774197178406807aa75.resource','bin/data/bd2091e68bef09a4bb217416cf75333a.resource','bin/data/c080d1da3f1a9c642a884e61b1959349.resource','bin/data/fd084585722d49841b38553b8f8f74fd.resource','bin/data/fd224e6c382336249862bdd61a9363e2.resource'
+		noCompress '.unity3d', '.ress', '.resource', '.obb','bin/data/26cbfc0f070bb104c95ed24f62a9a920.resource','bin/data/64ba031256edb774197178406807aa75.resource','bin/data/6f76e462d8ee0184f866484e6abb2252.resource','bin/data/bd2091e68bef09a4bb217416cf75333a.resource','bin/data/c080d1da3f1a9c642a884e61b1959349.resource','bin/data/fd084585722d49841b38553b8f8f74fd.resource','bin/data/fd224e6c382336249862bdd61a9363e2.resource'
 	}
 
 
