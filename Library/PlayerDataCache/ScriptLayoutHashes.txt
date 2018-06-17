@@ -242,3 +242,5 @@ af7666733efcc974926d7d470e1732a6 Assembly-CSharp.dll:TMPro.Examples.SkewTextExam
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 2762ede91d1f74490aea61933e8c0581 Assembly-CSharp.dll:.PauseMenu
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.RestartGame
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlatformCollider
+83a614bc6c78e1d9662c355760bbfd1d Assembly-CSharp.dll:.ButtonPressed

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundManagerScript : MonoBehaviour {
 
-    public static AudioClip runConcrete, runWood, jump, land, crushed, scream;
+    public static AudioClip runConcrete, runWood, jump, land, crushed, scream, buttonPressed;
     static AudioSource audioSrc;
 	// Use this for initialization
 	void Start () {
@@ -14,6 +14,7 @@ public class SoundManagerScript : MonoBehaviour {
         land = Resources.Load<AudioClip>("PlayerLand");
         crushed = Resources.Load<AudioClip>("PlayerGib");
         scream = Resources.Load<AudioClip>("Wilhelm");
+        buttonPressed = Resources.Load<AudioClip>("ButtonPush1");
 
         audioSrc = GetComponent<AudioSource>();
     }
@@ -44,6 +45,9 @@ public class SoundManagerScript : MonoBehaviour {
                 break;
             case "scream":
                 audioSrc.PlayOneShot(scream);
+                break;
+            case "buttonPressed":
+                audioSrc.PlayOneShot(buttonPressed);
                 break;
         }
     }
