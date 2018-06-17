@@ -10,6 +10,7 @@ public class Crushed : MonoBehaviour {
     public GameObject meat;
     public GameObject meat2;
     public GameObject meat3;
+    public GameObject RestartPanel;
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -23,6 +24,7 @@ public class Crushed : MonoBehaviour {
             Instantiate(meat2, transform.position, Quaternion.identity);
             Instantiate(meat3, transform.position, Quaternion.identity);
             player.SetActive(false);
+            RestartPanel.SetActive(true);
         }
     }
 }

@@ -18,7 +18,8 @@ public class PauseMenu : MonoBehaviour {
     }
     public void Menu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("menu");
     }
     public void Quit()
     {

@@ -253,6 +253,7 @@
     <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\PauseMenu.cs" />
     <Compile Include="Assets\Player.cs" />
+    <Compile Include="Assets\RestartGame.cs" />
     <Compile Include="Assets\SettingsMenu.cs" />
     <Compile Include="Assets\SoundManagerScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
