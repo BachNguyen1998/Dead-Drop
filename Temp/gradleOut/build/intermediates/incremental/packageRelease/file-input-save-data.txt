@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jun 17 18:26:36 ICT 2018
+#Tue Jun 19 06:27:18 ICT 2018
 122.file=F\:\\Unity3D\\Projects\\Dead Drop\\Temp\\gradleOut\\build\\intermediates\\assets\\release\\bin\\Data\\globalgamemanagers
 60.set=ASSET
 129.file=F\:\\Unity3D\\Projects\\Dead Drop\\Temp\\gradleOut\\build\\intermediates\\transforms\\mergeJniLibs\\release\\folders\\2000\\1f\\main\\lib\\x86\\libunity.so

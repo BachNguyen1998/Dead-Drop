@@ -5,7 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
     public void PlayGame() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);  
+        LevelGenerator.y = -1.3f;
+        LevelGenerator.level = 1;
+        PlayScene();
+        
+        /*GameObject LG = GameObject.Find("LevelGenerator");
+        LevelGenerator load=LG.GetComponent<LevelGenerator>();
+        load.LoadLevel();*/
+    }
+    public static void PlayScene()
+    {
+        SceneManager.LoadSceneAsync("main");
     }
     public void QuitGame() {
         Application.Quit();
